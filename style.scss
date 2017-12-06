@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+p, li, h1, h2, h3, h4 {
+  color: black;
+}
+
+p, ol {
+  line-height: 20px;
+}
+
+.card {
+  height: 300px;
+}
+
+.brand-logo {
+  margin: 0px 20px;
+}
+

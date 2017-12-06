@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.scss">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">  
+  <title>Flash Cards</title>
+</head>
+<body>
+<nav>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="es.html">ES6</a></li>
+    <li><a href="webpack.html">Webpack</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Flash Cards - Webpack</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Select Content<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+  </div>
+</nav>
+
+  <div class="row">
+    <div class="col s6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Webpack<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Definition<i class="material-icons right">close</i></span>
+          <p><strong>Webpack</strong> is a static module bundler for modern JavaScript applications. When webpack processes your application, it recursively builds a dependency graph that includes every module your application needs, then packages all of those modules into one or more bundles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Loaders<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Definition<i class="material-icons right">close</i></span>
+          <p><strong>Loaders</strong> enable webpack to process more than just JavaScript files (webpack itself only understands JavaScript). They give you the ability to leverage webpack's bundling capabilities for all kinds of files by converting them to valid modules that webpack can process.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Entry<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Definition<i class="material-icons right">close</i></span>
+          <p>An <strong>entry</strong> point indicates which module webpack should use to begin building out its internal dependency graph. After entering the entry point, webpack will figure out which other modules and libraries that entry point depends on (directly and indirectly).</p>
+        </div>
+      </div>
+    </div>
+    <div class="col s6">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Output<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Definition<i class="material-icons right">close</i></span>
+          <p>The <strong>output</strong> property tells webpack where to emit the bundles it creates and how to name these files. You can configure this part of the process by specifying an output field in your configuration</p> 
+        </div>
+      </div>
+    </div>                 
+  </div>
+  
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2017 Flash Cards
+      <a class="grey-text text-lighten-4 right" href="index.html">Home</a>
+      </div>
+    </div>
+  </footer>
+    
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</body>
+</html>
